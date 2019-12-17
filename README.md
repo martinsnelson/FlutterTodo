@@ -63,6 +63,12 @@ stl
 
 flutter pub run flutter_launcher_icons:main
 
+# Generate APP **\***
+
+flutter build apk --release
+flutter build ios --release
+P.S. --release is optional as it is by default if you need debug build, just replace --release with --debug
+
 # Build an APK
 
 flutter build apk --split-per-abi
